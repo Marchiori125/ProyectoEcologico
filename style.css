@@ -258,3 +258,38 @@ header {
 .login-register p a:hover {
     text-decoration: underline;
 }
+
+.inicio .nombre_frase div {
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.inicio .nombre_frase div h1 {
+    position: static;
+    font-size: 10em;
+    right: 5em;
+    margin-top: -2em;
+    color: #ffffff;
+}
+
+.inicio .nombre_frase div h3 {
+    position: static;
+    font-size: 2em;
+    right: 5em;
+    margin-top: -1.3em;
+    color: #ffffff;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateX(-5em);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(-35em);
+    }
+}
