@@ -87,7 +87,8 @@ header {
 }
 
 .wrapper {
-    position: relative;
+    position: absolute;
+    z-index: 1;
     width: 400px;
     height: 440px;
     background: transparent;
@@ -290,6 +291,6 @@ header {
     }
     to {
         opacity: 1;
-        transform: translateX(-35em);
+        transform: translateX(-20em);
     }
 }
