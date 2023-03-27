@@ -270,17 +270,17 @@ header {
 
 .inicio .nombre_frase div h1 {
     position: static;
-    font-size: 10em;
-    right: 5em;
+    font-size: 8em;
+    right: 8em;
     margin-top: -2em;
     color: #ffffff;
 }
 
 .inicio .nombre_frase div h3 {
     position: static;
-    font-size: 2em;
-    right: 5em;
-    margin-top: -1.3em;
+    font-size: 1.8em;
+    right: 8em;
+    margin-top: -1.2em;
     color: #ffffff;
 }
 
@@ -291,6 +291,6 @@ header {
     }
     to {
         opacity: 1;
-        transform: translateX(-20em);
+        transform: translateX(-17em);
     }
 }
